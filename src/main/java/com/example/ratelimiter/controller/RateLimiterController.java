@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class RateLimiterController {
 
+    
+
     private final RateLimiterService rateLimiterService;
 
     @GetMapping(AppConstants.TEST_ENDPOINT)
